@@ -14,19 +14,3 @@ def to_ascii(input, key)
   end
   puts "Your string '#{input}' in ascii is '#{new_str}'"
 end
-
-puts ''
-puts 'Enter message you want encrypted (as a string)'
-puts ''
-
-string = gets.chomp
-
-puts ''
-puts 'Add shift key'
-puts ''
-
-shift_key = gets.chomp.to_i
-
-puts ''
-to_ascii(string, shift_key)
-puts ''
